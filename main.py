@@ -22,6 +22,7 @@ def calculator():
     print('Welcome to the calculator app by Mariusz Matyszczak!')
 
     while True:
+        # Get the numbers and the operator from the user.
         num1 = float(input('Enter the first number: '))
         operator = input('Enter the operator (+, -, *, /, ^, %): ')
         num2 = float(input('Enter the second number: '))
